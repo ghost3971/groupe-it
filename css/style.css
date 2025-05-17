@@ -47,7 +47,7 @@
 }
  h4 {
      font-size: 21px;
-     color: #07528d;
+     color: red;
      margin-top: 25px;
 }
  h5 {
@@ -257,7 +257,7 @@ LOADER
      padding: 5px 0px;
 }
  .top-header {
-     background-image: url("../images/header_img.png");
+     
      position: relative;
      top: 0px;
      left: 0px;
@@ -266,7 +266,7 @@ LOADER
      z-index: 20;
      background-position: left;
      background-repeat: no-repeat;
-     background-color: #0892fd;
+     background-color: #819bb8;
      background-size: auto 100%;
 }
  .top-header .navbar .navbar-collapse ul li a {
@@ -279,7 +279,7 @@ LOADER
      color: #000;
 }
  a.navbar-brand {
-     left: 35px;
+     left: 30px;
      position: relative;
 }
  .top-header .navbar .navbar-collapse ul li a.active {
@@ -383,7 +383,7 @@ LOADER
      font-weight: 300;
 }
  .theme_color {
-     color: #0892fd;
+     color: #fd0808;
 }
 /*------------------------------------------------------------------ Banner -------------------------------------------------------------------*/
  .home-slider{
@@ -465,7 +465,7 @@ LOADER
      background: #000;
 }
  .pogoSlider-nav-btn--selected {
-     background: #0892fd !important;
+     background: #ff0e0e !important;
 }
  .pogoSlider--navBottom .pogoSlider-nav {
      bottom: 20px;
@@ -499,7 +499,7 @@ LOADER
  .contact_bt {
      width: 145px;
      height: 50px;
-     background: #07528d;
+     background: #ff0e0e;;
      color: #fff;
      float: left;
      line-height: 48px;
@@ -643,7 +643,7 @@ LOADER
      left: 0;
      right: 0;
      bottom: 0;
-     background: #2a6a9c;
+     background: red;
      border-radius: 100%;
      -webkit-transform: scale(0);
      transform: scale(0);
@@ -1151,7 +1151,7 @@ LOADER
 }
  .dit-right h4 {
      font-size: 16px;
-     color: #3a4149;
+     color: red;
      font-weight: 500;
      margin: 0;
      padding: 0;
@@ -1221,11 +1221,25 @@ LOADER
  .help-block ul li{
      color: red;
 }
- .footer-box {
-     background: #072745;
-     padding: 50px 0;
-     text-align: center;
+
+.footer-box {
+    background: rgb(79, 10, 10);
+    padding: 50px 0;
+    text-align: center;
 }
+.social_icon li :hover{
+    background-color: rgb(79, 10, 10);
+    box-shadow: white 1px 2px 4px;
+}
+.col-md-4 div:hover{
+    background-color: rgb(193, 5, 5);
+    box-shadow: rgb(0, 0, 0) 4px 4px 4px;
+    margin-top: 10px;
+    margin-left: 10px;
+    gap: 20px;
+    border-radius: 20px;
+}
+
  .footer-box .footer-company-name {
      text-align: center;
      margin: 0px;
@@ -1376,7 +1390,7 @@ LOADER
      float: left;
 }
  .theme_bg {
-     background: #07528d;
+     background: #8d0707;
 }
  h3.small_heading {
      font-size: 35px;
